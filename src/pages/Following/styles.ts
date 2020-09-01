@@ -16,6 +16,7 @@ export const Wrapper = styled.SafeAreaView`
 `;
 
 export const Container = styled.View`
+    
 `;
 
 export const Main = styled.View`
