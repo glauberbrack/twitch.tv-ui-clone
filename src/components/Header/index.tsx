@@ -3,7 +3,11 @@ import React from 'react';
 import colors from '../../styles/colors';
 
 import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
-import { Materialcons, MaterialCommunityIcons, Feather } from '@expo/vector-icons';
+import {
+  MaterialIcons,
+  MaterialCommunityIcons,
+  Feather,
+} from '@expo/vector-icons';
 
 const Header: React.FC = () => {
   return (
@@ -14,23 +18,23 @@ const Header: React.FC = () => {
 
       <RightSide>
         <Button>
-          <Materialcons
+          <MaterialIcons
             name="notifications-none"
             size={26}
             color={colors.black}
           />
+        </Button>
+
         <Button>
-          <MaterialconsCommunityIcons
-            name="notifications-none"
+          <MaterialCommunityIcons
+            name="message-outline"
             size={26}
             color={colors.black}
           />
+        </Button>
+
         <Button>
-          <Feather
-            name="notifications-none"
-            size={26}
-            color={colors.black}
-          />
+          <Feather name="search" size={26} color={colors.black} />
         </Button>
       </RightSide>
     </Container>
