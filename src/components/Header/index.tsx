@@ -1,13 +1,13 @@
 import React from 'react';
-
-import colors from '../../styles/colors';
-
-import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
 import {
   MaterialIcons,
   MaterialCommunityIcons,
   Feather,
 } from '@expo/vector-icons';
+
+import colors from '../../styles/colors';
+
+import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
 
 const Header: React.FC = () => {
   return (
