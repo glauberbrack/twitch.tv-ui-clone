@@ -42,7 +42,7 @@ const Following: React.FC = () => {
         render: () =>  <Title>Continue Watching</Title>,
         isTitle: true
       },
-      { key: 'C1', render: () => <View/> },
+      { key: 'C3', render: () => <View/> },
 
       {
         key: 'OFFLINE CHANNELS',
